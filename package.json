@@ -1,6 +1,6 @@
 {
-  "name": "node-readline",
-  "version": "1.0.0",
+  "name": "@wiggly-games/node-readline",
+  "version": "1.0.1",
   "description": "",
   "main": "build/Release/reader",
   "types": "ReadLine.d.ts",
@@ -12,5 +12,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gypfile": true
+  "gypfile": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
