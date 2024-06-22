@@ -1,0 +1,16 @@
+{
+  "name": "node-readline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/Release/reader",
+  "types": "ReadLine.d.ts",
+  "scripts": {
+    "test": "cd demo && node ReadLine.js",
+    "create-module": "npm run swig && node-gyp rebuild",
+    "swig": "swig -c++ -javascript -node Source/Readline.i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "gypfile": true
+}
