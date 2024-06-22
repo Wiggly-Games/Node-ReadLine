@@ -50,3 +50,4 @@ ReadLine() will read a single line from the file and return that line's contents
 
 # Demo
 Check out [Demo](/demo/ReadLine.js) for an example usage of the Node-ReadLine module.
+Note that this demo includes the module by relative path, so this should be replaced with the `@wiggly-games/node-readline` mentioned earlier.
