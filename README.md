@@ -19,7 +19,8 @@ SubMap2Key2
 SubMap2Key3
 SubMap2Key4
 
-...```
+...
+```
 
 By using the C++ `getline()` function, we're able to store the current position of where we are within the file while we read, allowing us to easily create each sub-map individually while storing our position within the parent map object.
 
