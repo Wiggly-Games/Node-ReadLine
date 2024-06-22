@@ -1,6 +1,6 @@
 {
   "name": "@wiggly-games/node-readline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/Release/reader",
   "types": "ReadLine.d.ts",
